@@ -1,7 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
-html, body {
+html,
+body {
   margin: 0px;
 }
 
@@ -56,7 +57,7 @@ footer {
 
 
 /*---------- TABLET ----------*/
-/* Change the background colors below */
+
 
 @media (min-width: 768px) {
   header {
@@ -65,20 +66,28 @@ footer {
 
   #column-1 {
     background-color: lightsalmon;
+
   }
 
   #column-2 {
     background-color: lightsteelblue;
+
   }
 
   #column-3 {
     background-color: navy;
+    width: 100%;
   }
 
   footer {
     background-color: peru;
+    width: 50%;
   }
-  
+
+  .col-3 {
+    width: 50%;
+  }
+
 }
 
 
@@ -98,10 +107,15 @@ footer {
 
   #column-3 {
     background-color: hotpink;
+    width: 33.3%;
   }
 
   footer {
     background-color: lightcyan;
   }
-   
+
+  .col-3 {
+    width: 33.3%;
+  }
+
 }
